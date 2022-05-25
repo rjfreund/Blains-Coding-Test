@@ -30,7 +30,7 @@ const Home = () => {
         return <div>Loading...</div>;
     } else {
         return <div>
-            {/* JSON.stringify(activity) */}
+            { JSON.stringify(activity) }
             <button className="btn btn-primary" type="submit" onClick={requestActivity}>Request Random Activity</button>
             <dl className="row">
                 <dt className="col-sm-3">Description lists</dt>
