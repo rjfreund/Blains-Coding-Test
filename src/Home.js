@@ -1,5 +1,4 @@
-import { type } from '@testing-library/user-event/dist/type';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Home = () => {
     const typeCategoryDefaultValue = "education";
@@ -103,7 +102,7 @@ const Home = () => {
                                 {activity.activity}
                             </button>
                         </h2>
-                        <div id={"collapse" + index} className={`accordion-collapse collapse ${(index == 0) ? "show" : "hide"}`} aria-labelledby={"heading" + index} data-bs-parent="#accordion">
+                        <div id={"collapse" + index} className={`accordion-collapse collapse ${(index === 0) ? "show" : "hide"}`} aria-labelledby={"heading" + index} data-bs-parent="#accordion">
                             <div className="accordion-body">
                                 <dl key={activity.activity} className="row justify-content-md-center">
                                     <dt className="col-sm-6">Description</dt>
