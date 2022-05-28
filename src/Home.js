@@ -14,7 +14,7 @@ const Home = () => {
     const [accessibilityRating, setAccessibilityRating] = useState(accessibilityRatingDefaultValue);
 
     function requestActivity() {
-        fetch(`http://www.boredapi.com/api/activity?type=${typeCategory}&participants=${numParticipants}&price=${relativePrice}&accessibility=${accessibilityRating}`)
+        fetch(`https://www.boredapi.com/api/activity?type=${typeCategory}&participants=${numParticipants}&price=${relativePrice}&accessibility=${accessibilityRating}`)
             .then(res => res.json())
             .then(
                 (response) => {
