@@ -2,7 +2,7 @@
   "name": "blains-coding-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rjfreund.github.io/",
+  "homepage": "https://rjfreund.github.io/Blains-Coding-Test",
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "@testing-library/jest-dom": "^5.16.4",
